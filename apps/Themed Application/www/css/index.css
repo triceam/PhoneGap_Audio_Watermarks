@@ -1,0 +1,77 @@
+
+
+@font-face {
+    font-family: 'exocetlight';
+    src: url('../fonts/exl_____-webfont.eot');
+    src: url('../fonts/exl_____-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/exl_____-webfont.woff') format('woff'),
+    url('../fonts/exl_____-webfont.ttf') format('truetype'),
+    url('../fonts/exl_____-webfont.svg#exocetlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+
+
+    font-family:'exocetlight', 'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    width:100%;
+
+    background-color: #000;
+    background-image: url('../images/swords.png');
+    background-position: top center;
+    color: #FFF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    color: #FFBF00;
+    text-shadow: 0.1em 0.1em #333;
+}
+
+p {
+    padding-left:1em;
+    padding-right:1em;
+    font-family: Helvetica, Arial, sans-serif;
+
+}
+
+a,
+a:hover,
+a:visited,
+a:active,
+strong {
+    color: #FFBF00;
+}
+
+@media only screen
+and (min-device-width : 768px) {
+
+    h1 {
+        font-size: 400%;
+        padding: 0.25em;
+        margin: 0px;
+    }
+
+    h3 {
+        font-size: 300%;
+        padding: 0.15em;
+        margin: 0px;
+    }
+}
+
+img {
+    border-bottom: 2px solid #555;
+    border-top: 2px solid #888;
+}
